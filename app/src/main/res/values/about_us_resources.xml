@@ -21,68 +21,65 @@
     for example xda icon for your xda thread, site icon for your site, facebook icon and so on-->
     <array name="about_contact_us_drawables">
         <item>@drawable/icon_2</item>
-        <item>@drawable/icon_1</item>
+        <item>@mipmap/ic_launcher</item>
         <item>@drawable/icon_3</item>
     </array>
 
     <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
     <string-array name="about_contact_us_text">
         <item>Facebook</item>
-        <item>Our Site</item>
-        <item>XDA</item>
+        <item>Echoe Forum</item>
+        <item>Donation</item>
     </string-array>
 
     <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
     <string-array name="about_contact_us_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>https://www.facebook.com/groups/1703311783264669/</item>
+        <item>http://www.echoerom.com/</item>
+        <item>https://goo.gl/VQvYUN/</item>
     </string-array>
 
 
 
     <!--Team info arrays-->
     <array name="about_team_drawables">
-        <item>@drawable/icon_5</item>
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_1</item>
+        <item>@drawable/icon_7</item>
+        <item>@drawable/icon_0</item>
+        <item>@drawable/icon_0</item>
+        <item>@drawable/icon_0</item>
+        <item>@drawable/icon_0</item>
+        <item>@drawable/icon_0</item>
     </array>
     <string-array name="about_team_names">
-        <item>Master Yoda - wise and talented lead developer</item>
-        <item>Luke Skywalker - one handed theme master</item>
-        <item>Darth Vader - dark theme master</item>
+        <item>Kyri - Echoe Roms Creator, Chief Developer</item>
+        <item>Acer4605, YukiChan456, Stoerte, sanoc69,</item>
+        <item>Darkwing_X, jds3118, 4aces, roy72,</item>
+        <item>Speedwayfan75, aaatso, Misk77, bvahedy,</item>
+        <item>Kdio, thereassaad, gharrington, Simplycity,</item>
+        <item>skeamznz, Graeme Duncan, s7freak, aljee77</item>
     </string-array>
     <string-array name="about_team_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>http://www.echoerom.com/</item>
+        <item>http://www.echoerom.com/</item>
+        <item>http://www.echoerom.com/</item>
+        <item>http://www.echoerom.com/</item>
+        <item>http://www.echoerom.com/</item>
+        <item>http://www.echoerom.com/</item>
     </string-array>
 
 
 
     <!--Credits and thanks info arrays-->
     <array name="about_credits_drawables">
-        <item>@drawable/icon_1</item>
+        <item>@drawable/icon_7</item>
         <item>@drawable/icon_3</item>
-        <item>@drawable/icon_4</item>
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_5</item>
     </array>
     <string-array name="about_credits_names">
-        <item>Star Trek - for being ultimately better than Star Wars</item>
-        <item>Jean-Luc Picard - for making us crave hot earl-grey tea even in the middle of the summer</item>
-        <item>Data - for running on the best rom. Google, we still are waiting for THAT android version</item>
-        <item>Janeway - for being a normal person and drinking black coffee</item>
-        <item>Q - for reminding us that you can live forever and still look great</item>
-        <item>Worf - for teaching us to love Klingons. It was NOT easy</item>
+        <item>Kyri - for the great ROM and kernel</item>
+        <item>daxgirl - for this amazing app</item>
     </string-array>
     <string-array name="about_credits_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>http://www.echoerom.com/</item>
+        <item>http://forum.xda-developers.com/android/general/source-code-6thgear-romcontrol-v2-devs-t3411916/</item>
     </string-array>
 </resources>

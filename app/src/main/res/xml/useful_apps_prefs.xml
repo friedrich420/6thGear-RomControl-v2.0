@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="ECHOE ROM TOOLS">
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+            android:summary="Control samsung's toolbox, turn it on or off, choose available apps and rearrange them"
+            app:componentName="com.wubydax.toolboxsettings/com.wubydax.toolboxsettings.ToolboxSettings"/>
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+            android:summary="Enable and Control Viper4Android"
+            app:componentName="com.vipercn.viper4android_v2/com.vipercn.viper4android_v2.activity.ViPER4Android"/>
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+            android:summary="Enable and Control Dolby Audio"
+            app:componentName="com.atmos.daxappUI/com.atmos.daxappUI.MainActivity"/>
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+            android:summary="Faster GPS"
+            app:componentName="org.fastergps/org.fastergps.ui.BaseActivity"/>
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+            app:componentName="eu.chainfire.supersu/eu.chainfire.supersu.MainActivity-Material"
+            android:title="Chainfire's SuperSu App"
+            android:summary="Manage root permissions for apps and services"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="AEL KERNEL TOOLS">
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+            android:summary="Fine tune the Ael Kernel"
+            app:componentName="com.af.synapse/com.af.synapse.MainActivity"/>
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+            android:summary="Use your phone as a mouse and/or keyboard"
+            app:componentName="remote.hid.keyboard.client/remote.hid.keyboard.client.MainActivity"/>
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+            android:summary="Monitors your CPU"
+            app:componentName="com.bvalosek.cpuspy.realgpp/com.bvalosek.cpuspy.realgpp.AdsActivity"/>
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+            android:summary="Live report of CPU and GPU frequencies for all cores"
+            app:componentName="com.ktoonsez.KTmonitor/com.ktoonsez.KTmonitor.MainActivity"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="ECHOE DEVELOPMENT">
+        <PreferenceScreen
+            android:title="Echoe Forum"
+            android:icon="@mipmap/ic_launcher"
+            android:summary="Visit the Private Echoe Forum">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://www.echoerom.com" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="Support Echoe Development"
+            android:icon="@mipmap/ic_launcher"
+            android:summary="PRESS HERE TO DONATE">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://goo.gl/VQvYUN" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
